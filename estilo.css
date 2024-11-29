@@ -1,0 +1,212 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+body {
+    margin: 0; 
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex; 
+    align-items: center; 
+    padding: 20px; 
+}
+
+.imagem {
+    width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.texto {
+    font-size: 18px;
+    color: #333; 
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Introdução */
+.intro {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 60px 20px;
+}
+
+.intro h1 {
+    font-size: 48px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Seção Sobre */
+.sobre {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Seção Portfólio */
+.portfolio {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Seção Serviços */
+.servicos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.servicos h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.servico {
+    margin: 20px 0;
+}
+
+.servico h3 {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.servico p {
+    font-size: 18px;
+}
+
+/* Seção Contato */
+.contato {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contato h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contato form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contato form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.contato form input,
+.contato form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contato form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contato form button:hover {
+    background-color: #45a049;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
